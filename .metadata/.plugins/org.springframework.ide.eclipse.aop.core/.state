@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="restwsasync"/>
+<aop-project name="course-api"/>
+<aop-project name="javafirstwsut"/>
+<aop-project name="firstmvc"/>
+<aop-project name="springrest"/>
+<aop-project name="restws"/>
+<aop-project name="restwserrorhandling"/>
+<aop-project name="restinjection"/>
+<aop-project name="springsecurity"/>
+<aop-project name="javafirstws"/>
+<aop-project name="wsdlfirstws"/>
+<aop-project name="bookstore"/>
+<aop-project name="mtom"/>
+<aop-project name="course-api-data"/>
+<aop-project name="restattachments"/>
+<aop-project name="tmp"/>
+<aop-project name="course-api1"/>
+</aop-reference-model>

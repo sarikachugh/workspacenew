@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="triangle" class="springframework.Triangle" autowire="byName">
+		
+	</bean>
+
+	<!-- autowire=byType : there is one member variable and single bean with the class type as Point. -->
+    <!-- it will not work with multiple member variable or multiple beans in a class -->
+ 
+	<bean id="pointA" class="springframework.Point">
+		<property name="x" value="0" />
+		<property name="y" value="0" />
+	</bean>
+
+	<bean id="pointB" class="springframework.Point">
+		<property name="x" value="-20" />
+		<property name="y" value="0" />
+	</bean>
+
+	<bean id="pointC" class="springframework.Point">
+		<property name="x" value="20" />
+		<property name="y" value="0" />
+	</bean>
+
+
+</beans>

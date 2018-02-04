@@ -1,0 +1,44 @@
+package sf.crom.hibernate;
+
+import java.util.Date;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import sf.crom.hibernate.dto.UserDetails;
+
+public class HibernateTest {
+
+	public static void main(String[] args) {
+		
+		UserDetails user = new UserDetails();     //save user need to read configuration configure d/base  by create build session factory object 
+		                                          //create session from the session factory object
+		                                          //open session and to save the objects we can do lot of save of number of object in one transaction by open transaction
+		user.setUserId(1);
+		user.setUserName("First	 User");
+		user.setAddress("First Users's address");
+		user.setJoinedDate(new Date());
+		user.setDescription("Description of the user goes here");
+		
+		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();    //creater once per application expensive object
+		Session session = sessionFactory.openSession();
+		session.beginTransaction();           //transaction begin
+		session.save(user);                  //save the object
+		session.getTransaction().commit();  //close the transaction
+        session.close();
+		//for fetching the object again from the database which is inserted earlier by the session via session factory object which would not 
+		//   initialize again or instantiate again in for the same application
+		
+		//create a new session for fetching the same object saved / persist earlier into the d/base
+	
+        user = null;
+        
+        session = sessionFactory.openSession();
+		session.beginTransaction();
+		user = (UserDetails) session.get(UserDetails.class, 1);
+		System.out.println("User Name retreived is " + user.getUserName());
+        
+	}
+
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.premium.process"/>
+		</list>
+		<list key="name">
+			<item value="PremiumProcessor"/>
+		</list>
+		<list key="artifactId">
+			<item value="premiumprocess"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Neeraj\Documents\workspace-sts-3.8.4.RELEASE\FirstAngular\WebContent\images"/>
+			<item value="C:\Users\Neeraj\Documents\workspace-sts-3.8.4.RELEASE\springsecurity\springsecurity"/>
+			<item value="C:\Users\Neeraj\Documents\workspace-sts-3.8.4.RELEASE\Restwsasync\restwsasync"/>
+			<item value="C:\Users\Neeraj\Documents\workspace-sts-3.8.4.RELEASE\Restinjection\restinjection"/>
+			<item value="C:\Users\Neeraj\Documents\workspace-sts-3.8.4.RELEASE\Restwserrorhandling\restwserrorhandling"/>
+			<item value="C:\Users\Neeraj\Documents\workspace-sts-3.8.4.RELEASE\restws\restws"/>
+			<item value="C:\Users\Neeraj\Documents\workspace-sts-3.8.4.RELEASE\utclient\utclient"/>
+			<item value="C:\Users\Neeraj\Documents\workspace-sts-3.8.4.RELEASE\Mtom\mtom"/>
+			<item value="C:\Users\Neeraj\Documents\workspace-sts-3.8.4.RELEASE\Javafirstwsut\javafirstwsut"/>
+			<item value="C:\Users\Neeraj\Downloads\course-api1"/>
+			<item value="C:\Users\Neeraj\Downloads\course-api\course-api"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Neeraj\Documents\workspace-sts-3.8.4.RELEASE\firstspring\src"/>
+			<item value="C:\Users\Neeraj\Documents\workspace-sts-3.8.4.RELEASE\firstmvc\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,9 @@
+package premiumprocess;
+
+public class Premium {
+
+	public static  int base() {
+		
+	}
+	
+}

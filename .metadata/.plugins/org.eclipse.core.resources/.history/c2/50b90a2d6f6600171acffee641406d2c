@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="triangle" class="springframework.Triangle" autowire="byName">
+		
+	</bean>
+
+	<!-- autowire=byType : there is one member variable and single bean with the class type as Point. -->
+    <!-- it will not work with multiple member variable or multiple beans of a class -->
+ 
+ autowire=constructor : there is one bean per type, instead of setter injection their
+ is constuctor for three different types for eg. and then we have three different beans for
+ three diffrent types and spring will instantiate these types and instantiate these beans
+ pass it to right types of constructor
+ 
+ default autowire off, manual autowiring for each of references.
+ 
+ 
+	<bean id="pointA" class="springframework.Point">
+		<property name="x" value="0" />
+		<property name="y" value="0" />
+	</bean>
+
+	<bean id="pointB" class="springframework.Point">
+		<property name="x" value="-20" />
+		<property name="y" value="0" />
+	</bean>
+
+	<bean id="pointC" class="springframework.Point">
+		<property name="x" value="20" />
+		<property name="y" value="0" />
+	</bean>
+
+
+</beans>

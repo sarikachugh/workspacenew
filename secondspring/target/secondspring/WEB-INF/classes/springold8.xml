@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "springframework.org/dtd/spring-beans-2.0.dtd">
+<!-- <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd"> -->
+
+<beans default-init-method="myInit" default-destroy-method="cleanUp">
+	<bean id="triangle" class="springframework.Triangle" autowire="byName" >
+				
+	</bean>
+<!-- need to provide below parameter in the triangle bean for specific bean otherwise can be
+mentioned globally for all beans -->
+<!-- init-method="myInit" destroy-method="cleanUp" -->
+
+	<bean id="pointA" class="springframework.Point">
+		<property name="x" value="0"  />
+		<property name="y" value="0"  />
+	</bean>
+	
+	<bean id="pointB" class="springframework.Point">
+		<property name="x" value="-20"  />
+		<property name="y" value="0"  />
+	</bean>
+	
+	<bean id="pointC" class="springframework.Point">
+		<property name="x" value="20"  />
+		<property name="y" value="0"  />
+	</bean>
+
+</beans>

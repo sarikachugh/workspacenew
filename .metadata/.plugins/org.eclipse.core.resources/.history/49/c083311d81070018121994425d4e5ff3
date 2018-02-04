@@ -1,0 +1,13 @@
+package premiumprocess;
+
+public class Premium {
+	private int age = 0;
+	private int premium = 0;
+	
+	public static int premiumage(int age) {
+		if (age < 18) {
+			premium = 5000;
+		}
+	}
+	
+}

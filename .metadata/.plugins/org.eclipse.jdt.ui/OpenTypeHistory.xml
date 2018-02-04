@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=SpringAop/src\/main\/java&lt;sf.crom.SpringAop.service{ShapeService.java[ShapeService" modifiers="1" timestamp="1500224313421"/>
+<typeInfo handle="=SimpleServlet/C:\/apache-tomcat-8.5.16\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1498935189423"/>
+<typeInfo handle="=FirstHibernateProj/src&lt;sf.crom.hibernate.dto{Vehicle.java[Vehicle" modifiers="1" timestamp="1501453053083"/>
+<typeInfo handle="=wsdlfirstws/C:\/Program Files\/jdk1.8.0_31\/jre\/lib\/rt.jar&lt;javax.xml.ws.handler.soap(SOAPHandler.class[SOAPHandler" modifiers="1537" timestamp="1423587552000"/>
+<typeInfo handle="=restwsasync/C:\/Users\/Neeraj\/.m2\/repository\/javax\/ws\/rs\/javax.ws.rs-api\/2.0.1\/javax.ws.rs-api-2.0.1.jar&lt;javax.ws.rs.client(InvocationCallback.class[InvocationCallback" modifiers="1537" timestamp="1501977228670"/>
+<typeInfo handle="=restwsasync/C:\/Users\/Neeraj\/.m2\/repository\/javax\/ws\/rs\/javax.ws.rs-api\/2.0.1\/javax.ws.rs-api-2.0.1.jar&lt;javax.ws.rs.client(Invocation.class[Invocation" modifiers="1537" timestamp="1501977228670"/>
+<typeInfo handle="=bookstore/C:\/Program Files\/jdk1.8.0_31\/jre\/lib\/rt.jar&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1423587552000"/>
+<typeInfo handle="=bookstore/C:\/Users\/Neeraj\/.m2\/repository\/org\/springframework\/security\/spring-security-core\/4.2.3.RELEASE\/spring-security-core-4.2.3.RELEASE.jar&lt;org.springframework.security.core.userdetails(UserDetails.class[UserDetails" modifiers="1537" timestamp="1503897106246"/>
+</typeInfoHistroy>

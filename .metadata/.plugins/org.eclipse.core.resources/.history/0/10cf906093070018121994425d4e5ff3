@@ -1,0 +1,32 @@
+package premiumprocess;
+
+public class agecalc {
+
+	public static void main(String[] args) {
+		System.out.print("Please enter date of birth in YYYY-MM-DD: ");
+		11
+		        Scanner scanner = new Scanner(System.in);
+		12
+		        String input = scanner.nextLine();
+		13
+		        scanner.close();
+		14
+		 
+		15
+		        LocalDate dob = LocalDate.parse(input);
+		16
+		        System.out.println("Age is:" + getAge(dob));
+		17
+		    }
+	
+		    // Returns age given the date of birth
+	
+		    public static int getAge(LocalDate dob) {
+		       LocalDate curDate = LocalDate.now();
+		       return Period.between(dob, curDate).getYears();
+		   }
+
+
+	}
+
+}

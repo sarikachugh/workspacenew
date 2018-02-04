@@ -1,0 +1,21 @@
+package sf.crom.hibernate;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import sf.crom.hibernate.dto.UserDetails;
+
+public class HibernateTest {
+
+	public static void main(String[] args) {
+		
+		UserDetails user = new UserDetails();
+		
+		user.setUserId(1);
+		user.setUserName("First User");
+		
+		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+
+	}
+
+}

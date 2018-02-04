@@ -1,0 +1,9 @@
+package premiumprocess;
+
+public class Premium {
+	int age;
+	public static int premiumage( age x) {
+		if ()
+	}
+	
+}

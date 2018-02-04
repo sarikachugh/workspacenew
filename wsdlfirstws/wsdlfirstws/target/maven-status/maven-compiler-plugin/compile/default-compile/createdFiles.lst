@@ -1,0 +1,13 @@
+com\bharath\ws\trainings\GetOrdersRequest.class
+com\bharath\ws\trainings\CreateOrdersResponse.class
+com\bharath\training\ws\handlers\SiteHandler.class
+com\bharath\ws\trainings\package-info.class
+com\bharath\ws\trainings\GetOrdersResponse.class
+com\bharath\ws\trainings\CustomerOrdersPortType.class
+com\bharath\ws\trainings\CustomerOrdersService.class
+com\bharath\trainings\ws\client\CustomerOrdersWSClient.class
+com\bharath\ws\trainings\Order.class
+com\bharath\ws\trainings\ObjectFactory.class
+com\bharath\ws\trainings\CreateOrdersRequest.class
+com\bharath\ws\trainings\impl\CustomersOrdersWSImpl.class
+com\bharath\ws\trainings\Product.class

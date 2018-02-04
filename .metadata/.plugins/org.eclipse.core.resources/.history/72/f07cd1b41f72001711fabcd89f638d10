@@ -1,0 +1,11 @@
+package sf.crom.hibernate;
+
+public class HibernateTest {
+
+	public static void main(String[] args) {
+		
+		UserDetails user = new UserDetails();
+
+	}
+
+}

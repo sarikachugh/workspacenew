@@ -1,0 +1,6 @@
+1500564909136	Rename package 'sf.crom.springbootstarter.topic'
+1500580223164	Copy package
+1500580421045	Rename type 'Topic'
+1500580436377	Rename type 'TopicController'
+1500580455733	Rename type 'TopicRepository'
+1500580468833	Rename type 'TopicService'

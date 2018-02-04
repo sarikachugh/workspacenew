@@ -1,0 +1,5 @@
+package sf.crom.config;
+
+public class SecurityConfig {
+
+}

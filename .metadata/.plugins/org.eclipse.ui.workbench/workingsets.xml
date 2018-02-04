@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1501773557933_2" label="utclient" name="utclient">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/soapclient" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1498936567557_0" label="Window Working Set" name="Aggregate for window 1498936567557"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1498937085043_1" label="Window Working Set" name="Aggregate for window 1498937085043"/>
+</workingSetManager>

@@ -1,0 +1,73 @@
+package sf.crom.hibernate.dto;
+
+import java.util.Date;
+
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Lob;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+import javax.persistence.Transient;
+
+@Entity    /*(name="USER_DETAILS")   */       //treat this model class as entity we havae already mention this class in config xml file
+@Table (name="USER_DETAILS")
+public class UserDetails {
+	
+	//@Column (name="USER_ID") //fields specific annotation can be write on the getter method as well with print output from getters
+          //Auto --hibernate decision to pick strategy of generating primary key values that can be identity, sequence, table depending upon the databases the application is connecting to.
+	//sequence - maintain depending on add sequence or next val of sequence int the database
+	//identity - 
+	//table - create seperate table with eache record has uniques primary key so hibernate create the table an generate the primary key record
+	@Id @GeneratedValue (strategy=GenerationType.AUTO)      //treat this field user id values as primary key for this entity class
+	private int userId;
+	
+	//@Column (name="USER_NAME")    to set field name
+	                                     //@Basic ()
+	//@Transient
+	private String userName;             //Can be done transient as transient String userName for not saving or persisting any field into the database
+	/*@Temporal (TemporalType.DATE)        //Date in format like date only time or timestamp bidefault it is timestamp without mentioning of annotations
+	private Date joinedDate;
+	private String Address;*/
+	//@Lob        //choose either clob or blob dep on the field datatype     //Large Object 2 types Blob - byte large object, Clob -char large objects  ...lot of lines of description exceed to bidefult allocation 255.
+	/*private String description;
+	
+	public Date getJoinedDate() {
+		return joinedDate;
+	}
+	public void setJoinedDate(Date joinedDate) {
+		this.joinedDate = joinedDate;
+	}
+	public String getAddress() {
+		return Address;
+	}
+	public void setAddress(String address) {
+		Address = address;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}*/
+	public int getUserId() {
+		return userId;
+	}
+	public void setUserId(int userId) {
+		this.userId = userId;
+	}
+	
+	public String getUserName() {
+		return userName; /*+ " from getter"*/
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	
+	
+	
+}
